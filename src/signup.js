@@ -49,8 +49,8 @@ Navigate("/Loginpage")
             
 
             
-            <div className="input-box">
-            <input placeholder='Password' onChange={(e)=>setpassword(e.target.value)}/>
+            <div className="input-box ">
+            <input placeholder='Password' type='password' onChange={(e)=>setpassword(e.target.value)}/>
 
                 
             </div>
