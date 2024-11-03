@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+#productcontainer{
+  width: 90%;
+  margin: 0 auto;
+}
+.mainpage{
+background-color: aliceblue;
+}
