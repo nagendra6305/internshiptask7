@@ -39,7 +39,7 @@ Navigate("/")
       }
   return (
     <div className='mainpage' >
-        <h1 style={{backgroundColor:"#0ef"}}>Products</h1>
+        <h1 style={{backgroundColor:"#0ef",width:"100%" }}>Products</h1>
      <input placeholder='search' size={30}
      value={productname} onChange={(e)=>{
      setproductname(e.target.value)

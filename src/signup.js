@@ -27,7 +27,7 @@ Navigate("/Loginpage")
 
 
   return (
-    <div className='body1'>
+    <body className='body1'>
       <div class="container">
           <div className="login-box">
         <h2>REGISTER</h2>
@@ -57,13 +57,13 @@ Navigate("/Loginpage")
             
             
         
-            <button style={{color:"white"}} className="btn" onClick={handleLocalstr}>Register</button>
+            <button style={{color:"white"}} className="btn" onClick={()=>handleLocalstr()}>Register</button>
         
         </form>
     </div>
        
     </div>
-    </div>
+    </body>
   )
 }
 

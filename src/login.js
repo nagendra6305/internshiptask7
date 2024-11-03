@@ -16,7 +16,7 @@ const Login = () => {
 
     }
   return (
-  <div className='body1'>
+  <body className='body1' >
       <div class="container">
           <div className="login-box">
         <h2>LOGIN</h2>
@@ -31,20 +31,20 @@ const Login = () => {
 
             
             <div className="input-box">
-            <input placeholder='login' type='text' onChange={(e)=>setpassword(e.target.value)}/>
+            <input  placeholder='password' type='password' onChange={(e)=>setpassword(e.target.value)}/>
 
                 
             </div>
             
             
         
-            <button className="btn" onClick={()=>handlelogin()}>Login</button>
+            <button style={{color:"white"}} className="btn" onClick={()=>handlelogin()}>Login</button>
         
         </form>
     </div>
        
     </div>
-    </div> 
+    </body> 
    
   )
 }

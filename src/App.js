@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+
 import Mainpage from './mainpage';
 import Signup from './signup';
 import Login from './login';
